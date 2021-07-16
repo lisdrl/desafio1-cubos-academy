@@ -1,0 +1,17 @@
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.contato__h2 {
+    width: 379px;
+    /* background-color: black; */
+    /* margin-right: 575px;
+    padding-right: 20px; */
+}
+
+.contato__a {
+    width: 166px;
+}

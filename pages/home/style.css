@@ -1,0 +1,123 @@
+/* HERO-SECTION */
+
+.hero-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 700px;
+    width: 100%;
+    margin-top: 54px;
+
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 455px;
+    height: 387px;
+    background-color: #FAFAFA;
+}
+
+.hero__text h1 {
+    padding: 66px 40px 53px 40px;
+}
+
+.hero__text a {
+    display: flex;
+    width: 200px;
+    height: 50px;
+
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #1E3444 26%, #203A4C 20%);
+}
+
+.hero__text a:hover {
+    background: linear-gradient(90deg, #55A292 26%, #5FB4A2 20%);
+}
+
+svg {
+    width: 18px;
+    height: 17px;
+    margin: auto;
+    margin-left: 17px;
+}
+
+.hero__text a:hover svg g {
+    stroke: #FFF;
+}
+
+.hero__span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+    padding-left: 18px;
+}
+
+/* .hero__span:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5FB4A2;
+
+    flex-grow: 1;
+    text-align: center;
+} */
+
+/* SOBRE */
+
+.sobre {
+    display: flex;
+    height: 700px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.sobre__img img{
+    height: 700px;
+}
+
+.sobre__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 140px;
+}
+
+.sobre__text h2 {
+    padding-top: 50px;
+}
+
+.sobre__text p {
+    padding-top: 28px;
+    padding-bottom: 24px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+a.sobre__a {
+    margin-top: 24px;
+    margin: 0 auto;
+    margin-bottom: 46px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+a.sobre__a:hover {
+    margin-top: 24px;
+    margin: 0 auto;
+    margin-bottom: 46px;
+    padding-left: 28px;
+    padding-right: 28px;
+}

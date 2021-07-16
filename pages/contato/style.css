@@ -1,0 +1,80 @@
+.entreEmContato {
+    margin-top: 94px;
+}
+
+.line {
+    margin-bottom: 48px;
+}
+
+.entreEmContato__container, .contato__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0px 48px 0px;
+}
+
+.entreEmContato__container {
+    height: 260px;
+}
+
+.entreEmContato__h2, .contato_h2 {
+    flex-grow: 1;
+}
+
+.entreEmContato__direita, .contato__direita {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+.entreEmContato__p {
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.entreEmContato__icons img {
+    margin-top: 54px;
+    padding-right: 16px;
+}
+
+.entreEmContato__icons a {
+    text-decoration: none;
+}
+
+.contato__container {
+    height: 535px;
+}
+
+.contato__direita label{
+    margin-bottom: 8px;
+    
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.contato__direita input, .contato__direita textarea {
+    height: 48px;
+    margin-bottom: 24px;
+    padding: 20px;
+
+    background: #E5E5E6;
+    color: #33323D;
+    border: 0px;
+}
+
+.contato__direita input:focus, .contato__direita textarea:focus {
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+
+#msg-text {
+    height: 134px;
+}
+
+.contato__direita button {
+    width: 200px;
+}
